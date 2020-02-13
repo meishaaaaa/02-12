@@ -4,7 +4,7 @@ public class Student {
 
     public void addScore(int score) {
         score += 5;
-        this.score=score;
+        this.score = score;
     }
 
     public Student(String name, int score) {
