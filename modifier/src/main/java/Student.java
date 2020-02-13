@@ -1,10 +1,10 @@
 public class Student {
-    final String name;
-    int score;
+    private final String name;
+    private int score;
 
     public void addScore(int score) {
         score += 5;
-        this.score = score;
+        this.score=score;
     }
 
     public Student(String name, int score) {
